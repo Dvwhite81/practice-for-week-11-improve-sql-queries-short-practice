@@ -74,7 +74,7 @@
 -- Create index:
 
     -- Your code here
-    CREATE INDEX cat_toys_toy_id_cat_id ON cat_toys(toy_id, cat_id);
+    CREATE INDEX idx_cat_toys_toy_id_cat_id ON cat_toys(toy_id, cat_id);
 
 -- Analyze Query:
     -- Your code here
